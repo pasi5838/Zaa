@@ -1,0 +1,36 @@
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f0f0f0;
+}
+.game-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+#animal-image {
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: contain;
+}
+#answer-box {
+  font-size: 24px;
+  margin: 10px 0;
+  min-height: 40px;
+  letter-spacing: 5px;
+}
+#letters button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+}
